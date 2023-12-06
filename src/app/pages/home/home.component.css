@@ -1,5 +1,5 @@
 #hero {
-  background-image: url(/assets/hero4.png);
+  background-image: url("./assets/hero4.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -20,7 +20,7 @@
 }
 
 #hero button {
-  background-image: url(/assets/button.png);
+  background-image: url("./assets/button.png");
   background-color: transparent;
   color: #088178;
   border: 0;
@@ -69,7 +69,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(/assets/banner/b2.jpg);
+  background-image: url("./assets/banner/b2.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -111,7 +111,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/assets/banner/b17.jpg);
+  background-image: url("./assets/banner/b17.jpg");
   min-width: 660px;
   height: 50vh;
   background-size: cover;
@@ -120,7 +120,7 @@ img {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url(/assets/banner/b10.jpg);
+  background-image: url("./assets/banner/b10.jpg");
 }
 
 #sm-banner h4 {
@@ -159,7 +159,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/assets/banner/b7.jpg);
+  background-image: url("./assets/banner/b7.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -169,11 +169,11 @@ img {
 }
 
 #banner3 .banner-box2 {
-  background-image: url(/assets/banner/b4.jpg);
+  background-image: url('./assets/banner/b4.jpg');
 }
 
 #banner3 .banner-box3 {
-  background-image: url(/assets/banner/b18.jpg);
+  background-image: url("./assets/banner/b18.jpg");
 }
 
 #banner3 h2 {
