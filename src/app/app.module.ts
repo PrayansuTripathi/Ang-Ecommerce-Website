@@ -13,6 +13,9 @@ import { FeatureComponent } from './layouts/feature/feature.component';
 import { ProductComponent } from './layouts/product/product.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { BlogPostComponent } from './layouts/blog-post/blog-post.component';
+import { CartComponent } from './layouts/cart/cart.component';
+import { SingleProductComponent } from './pages/single-product/single-product.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { FooterComponent } from './layouts/footer/footer.component';
     FeatureComponent,
     ProductComponent,
     SubscriptionComponent,
-    FooterComponent
+    FooterComponent,
+    BlogPostComponent,
+    CartComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,
