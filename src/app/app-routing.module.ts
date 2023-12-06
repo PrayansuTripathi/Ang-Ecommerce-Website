@@ -7,7 +7,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
-  { path: "", redirectTo: "/" , pathMatch: 'full'},
+  { path: "", redirectTo: "/", pathMatch: 'full' },
   { path: "", component: HomeComponent },
   { path: "shop", component: ShopComponent },
   { path: "blog", component: BlogComponent },
@@ -16,7 +16,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'top' })],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'top', useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
