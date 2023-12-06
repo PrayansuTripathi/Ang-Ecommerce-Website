@@ -7,7 +7,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
-  { path: "", redirectTo: "home" },
+  { path: "", redirectTo: "/home" , pathMatch: 'full'},
   { path: "home", component: HomeComponent },
   { path: "shop", component: ShopComponent },
   { path: "blog", component: BlogComponent },
